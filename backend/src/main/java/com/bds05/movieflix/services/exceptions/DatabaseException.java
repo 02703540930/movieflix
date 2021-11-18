@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.services.exceptions;
+package com.bds05.movieflix.services.exceptions;
 
 public class DatabaseException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

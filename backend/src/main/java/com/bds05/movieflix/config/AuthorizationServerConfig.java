@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.config;
+package com.bds05.movieflix.config;
 
 import java.util.Arrays;
 
@@ -17,7 +17,7 @@ import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
-import com.tssa301.movieflix.components.JwtTokenEnhancer;
+import com.bds05.movieflix.components.JwtTokenEnhancer;
 
 @Configuration
 @EnableAuthorizationServer

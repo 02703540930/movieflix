@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.entities;
+package com.bds05.movieflix.entities;
 
 import java.io.Serializable;
 

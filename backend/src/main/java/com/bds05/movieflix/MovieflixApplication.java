@@ -1,4 +1,4 @@
-package com.tssa301.movieflix;
+package com.bds05.movieflix;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

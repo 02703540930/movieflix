@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.components;
+package com.bds05.movieflix.components;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,8 +10,8 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.stereotype.Component;
 
-import com.tssa301.movieflix.entities.User;
-import com.tssa301.movieflix.repositories.UserRepository;
+import com.bds05.movieflix.entities.User;
+import com.bds05.movieflix.repositories.UserRepository;
 
 @Component
 public class JwtTokenEnhancer implements TokenEnhancer {

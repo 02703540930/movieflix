@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.config;
+package com.bds05.movieflix.config;
 
 import java.util.Arrays;
 

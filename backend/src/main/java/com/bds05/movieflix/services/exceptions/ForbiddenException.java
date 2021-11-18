@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.services.exceptions;
+package com.bds05.movieflix.services.exceptions;
 
 public class ForbiddenException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

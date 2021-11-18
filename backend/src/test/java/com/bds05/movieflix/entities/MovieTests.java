@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.entities;
+package com.bds05.movieflix.entities;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.resources;
+package com.bds05.movieflix.resources;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tssa301.movieflix.dto.UserDTO;
-import com.tssa301.movieflix.services.UserService;
+import com.bds05.movieflix.dto.UserDTO;
+import com.bds05.movieflix.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")

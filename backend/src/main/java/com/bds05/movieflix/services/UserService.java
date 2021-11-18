@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.services;
+package com.bds05.movieflix.services;
 
 import java.util.Optional;
 
@@ -13,10 +13,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.tssa301.movieflix.dto.UserDTO;
-import com.tssa301.movieflix.entities.User;
-import com.tssa301.movieflix.repositories.UserRepository;
-import com.tssa301.movieflix.services.exceptions.ResourceNotFoundException;
+import com.bds05.movieflix.dto.UserDTO;
+import com.bds05.movieflix.entities.User;
+import com.bds05.movieflix.repositories.UserRepository;
+import com.bds05.movieflix.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class UserService implements UserDetailsService {

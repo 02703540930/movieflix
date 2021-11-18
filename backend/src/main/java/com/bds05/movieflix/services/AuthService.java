@@ -1,14 +1,14 @@
-package com.tssa301.movieflix.services;
+package com.bds05.movieflix.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.tssa301.movieflix.entities.User;
-import com.tssa301.movieflix.repositories.UserRepository;
-import com.tssa301.movieflix.services.exceptions.ForbiddenException;
-import com.tssa301.movieflix.services.exceptions.UnauthorizedException;
+import com.bds05.movieflix.entities.User;
+import com.bds05.movieflix.repositories.UserRepository;
+import com.bds05.movieflix.services.exceptions.ForbiddenException;
+import com.bds05.movieflix.services.exceptions.UnauthorizedException;
 
 @Service
 public class AuthService {

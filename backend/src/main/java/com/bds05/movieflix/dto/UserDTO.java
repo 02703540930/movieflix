@@ -1,8 +1,8 @@
-package com.tssa301.movieflix.dto;
+package com.bds05.movieflix.dto;
 
 import java.io.Serializable;
 
-import com.tssa301.movieflix.entities.User;
+import com.bds05.movieflix.entities.User;
 
 public class UserDTO implements Serializable {
 	private static final long serialVersionUID = 1L;

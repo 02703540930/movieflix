@@ -1,4 +1,4 @@
-package com.tssa301.movieflix.resources.exceptions;
+package com.bds05.movieflix.resources.exceptions;
 
 import java.time.Instant;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.tssa301.movieflix.services.exceptions.ForbiddenException;
-import com.tssa301.movieflix.services.exceptions.UnauthorizedException;
+import com.bds05.movieflix.services.exceptions.ForbiddenException;
+import com.bds05.movieflix.services.exceptions.UnauthorizedException;
 
 
 @ControllerAdvice
